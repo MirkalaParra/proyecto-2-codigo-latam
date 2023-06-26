@@ -149,9 +149,68 @@ h2 {
     margin-top: 20px;
   }  
 
-  
 
+
+  
+/*
+ Revisar que todo el contenido esté alineado con flexbox, será
+más fácil para adaptar.
+● Recuerden ajustar tamaños y margins o paddings según sea
+necesario.
+● Para evitar que el contenido se “estire” en tamaño Desktop,
+pueden aplicar un width: 100% combinado con un max-width
+(“ancho máximo”) en pixeles, por ejemplo, max-width: 800px;
+
+
+font-size para h1 en desktop: 48px
+ font-size para h2 en desktop: 32px
  
+ Bonus track: les proponemos para este Proyecto 2 que busquen en la
+web “cómo hacer con CSS para modificar los estilos de un
+elemento al pasar el mouse sobre este”. Luego, lo aplicarán sobre
+los elementos del menú y el botón “Descargar mi CV”, para que al
+pasar el cursor del mouse sobre ellos cambie algo, por ejemplo el
+color de fondo.
+ 
+ */
+ 
+
+
+  /* para Desktop*/
+@media (min-width: 1024px) {
+    #inicio {
+        flex-direction: row;
+    }
+   
+
+    h1 {
+      text-align: left;
+      font-size: 48px;
+   }
+   
+   h2 {
+       font-size: 31px;
+       text-align: center;
+    }
+
+    p{
+      text-align: left;
+   }
+
+   #pie-pg p{
+    text-align: center;
+
+  }  
+
+  article{
+    text-align: left;
+  }
+
+   
+
+
+}
+
 
 
 
