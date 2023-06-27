@@ -150,7 +150,10 @@ h2 {
   }  
 
 
-
+.btn-CV:hover {
+  background-color: #6c4263;
+  transition: 0.3s;
+}
   
 /*
  Revisar que todo el contenido esté alineado con flexbox, será
@@ -207,9 +210,27 @@ color de fondo.
   }
 
    
+  .presentacion-img {
+    margin-right: 80px;
+    width: 150%;   
+    }  
 
+    /*Prueba*/
+    li.destacado{
+      background-color: #af599e;
+    }
 
+   /*Prueba*/  
+ .parrafo-modicado{
+  background-color: #6fec59;
+  }
+   
+   /*Prueba*/
+.active{
+  background-color: #aceda1;
 }
+}
+
 
 
 
