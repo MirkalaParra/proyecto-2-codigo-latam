@@ -151,33 +151,11 @@ h2 {
 
 
 .btn-CV:hover {
-  background-color: #6c4263;
+  background-color: rgb(234, 204, 234);
   transition: 0.3s;
+  color:#0f0f0f;
 }
   
-/*
- Revisar que todo el contenido esté alineado con flexbox, será
-más fácil para adaptar.
-● Recuerden ajustar tamaños y margins o paddings según sea
-necesario.
-● Para evitar que el contenido se “estire” en tamaño Desktop,
-pueden aplicar un width: 100% combinado con un max-width
-(“ancho máximo”) en pixeles, por ejemplo, max-width: 800px;
-
-
-font-size para h1 en desktop: 48px
- font-size para h2 en desktop: 32px
- 
- Bonus track: les proponemos para este Proyecto 2 que busquen en la
-web “cómo hacer con CSS para modificar los estilos de un
-elemento al pasar el mouse sobre este”. Luego, lo aplicarán sobre
-los elementos del menú y el botón “Descargar mi CV”, para que al
-pasar el cursor del mouse sobre ellos cambie algo, por ejemplo el
-color de fondo.
- 
- */
- 
-
 
   /* para Desktop*/
 @media (min-width: 1024px) {
@@ -205,7 +183,7 @@ color de fondo.
 
   }  
 
-  article{
+  article {
     text-align: left;
   }
 
@@ -215,21 +193,28 @@ color de fondo.
     width: 150%;   
     }  
 
-    /*Prueba*/
-    li.destacado{
-      background-color: #af599e;
+    
+    .menu-item a.clicked {
+      background-color: rgb(234, 204, 234);
     }
 
-   /*Prueba*/  
- .parrafo-modicado{
-  background-color: #6fec59;
-  }
-   
-   /*Prueba*/
-.active{
-  background-color: #aceda1;
+    .resaltado {
+      color: #af599e;
+      background-color: rgb(234, 204, 234);
+      font-size: 3em;
+    }
+
+    .hablemos {
+      color: #af599e;
+      font-size: 2em;
+    }
+
+    .parrafo_modificado {
+      color: #af599e;
+    }
+
 }
-}
+ 
 
 
 
